@@ -33,11 +33,7 @@ p {
   color: #343a40;
 }
 
-@media screen and (min-width:576px) {
-  .row {
-    margin-bottom: 30px;
-  }
-
+@media screen and (max-width:575px) {
   #page-top {
     width: 40px;
     height: 40px;
@@ -56,6 +52,14 @@ p {
     height: 100%;
     border-radius: 50%;
   }
+
+}
+
+@media screen and (min-width:576px) {
+  .row {
+    margin-bottom: 30px;
+  }
+
 }
 
 
